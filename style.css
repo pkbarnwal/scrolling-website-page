@@ -1,0 +1,84 @@
+body{
+    margin:0;
+}
+nav{
+    background-color:#30323d;
+    padding: 15px 20px 15px 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+    font-size: 1.1rem;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+   
+}
+
+.navMenu{
+    flex-basis: 50%;
+    max-width:450px;
+    display:flex;
+    justify-content:space-between;
+}
+.navMenu a{
+    padding: 10px;
+    margin:0 0 0 10px;
+    cursor:pointer;
+    color:white;
+    text-decoration:none;
+}
+.navMenu a:hover{
+    background-color: #484b5b;
+}
+.active{
+    border-bottom: 2px solid #fff;
+}
+h1{
+    font-weight: 900px;
+    font-size:2.5rem;
+   
+}
+
+.home{
+    background-color:#9c1de7;
+    height:400px;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+}
+.home h1{
+    padding:auto;
+}
+.about{
+    background-color:#28c7fa;
+    height:400px;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+}
+.about h1{
+    padding:20px;
+}
+.services{
+    background-color:#f85959;
+    height:400px;
+   
+    display:flex;
+    justify-content: center;
+}
+.downloads{
+    background-color:#107a8b;
+    height:400px;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+}
+.contact{
+    background-color:#fd0054;
+    height:400px;
+    text-align:center;
+    display:flex;
+    justify-content: center;
+}
